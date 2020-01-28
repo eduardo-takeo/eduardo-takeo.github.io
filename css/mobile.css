@@ -1,5 +1,11 @@
 @media only screen and (max-width: 980px) {
-    .navbar-list {
-        flex-direction: column;        
+    #js-menu {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #js-navbar-toggle {
+        display: block;
     }
 }

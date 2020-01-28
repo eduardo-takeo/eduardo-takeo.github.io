@@ -5,35 +5,45 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home | Eduardo Takeo</title>
-    <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/css.css">    
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar menu -->
     <nav class="navbar">
-        <ul class="navbar-list">
-            <a href="#"><li id="navbar-logo" class="navbar-item">DWT</li></a>
-            <a href="#"><li class="navbar-item">Home</li></a>
-            <a href="#"><li class="navbar-item">Content</li></a>
-            <a href="#"><li class="navbar-item">About</li></a>
-            <a href="#"><li class="navbar-item">Contact</li></a>
-            <button class="navbar-item" id="github-btn" onclick="window.location.href = 'https://github.com/'"><i class="fab fa-github"></i>GitHub</button>            
-        </ul>        
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#"><li id="navbar-logo">DWT</li></a>
+        <div class="navbar-list">            
+            <ul id="js-menu">                
+                <a href="#" class="navbar-item"><li>Home</li></a>
+                <a href="#" class="navbar-item"><li>Content</li></a>
+                <a href="#" class="navbar-item"><li>About</li></a>
+                <a href="#" class="navbar-item"><li>Contact</li></a>
+                <button class="navbar-item" id="github-btn" onclick="window.location.href = 'https://github.com/'"><i class="fab fa-github"></i>GitHub</button>            
+            </ul>
+        </div>                
     </nav>
+
     <!--Cover(Animated background)-->
     <section class="cover">
         <span class="cover-text">dope website title</span>
     </section>
+
     <!--Quote-->
-    <section class="quote">
-        <p class="quote-text">"He who is brave is free"</p>
-        <span class="quote-text">- Seneca</span>
+    <section class="section-block">
+        <div class="quote-container">
+            <p class="quote-text">"He who is brave is free"</p>
+            <span class="quote-author">- Seneca</span>
+        </div>
     </section>
     <hr>
+
     <!--Content-->
-    <section>
+    <section class="section-block">
         <div class="content-title">
             <h2>Content</h2>
             <p>
@@ -69,6 +79,7 @@
         </div>
     </section>
     <hr>
+
     <!--About-->
     <section>
         <h1 class="about-title">About</h1>
@@ -103,6 +114,7 @@
         </div>
     </section>
     <hr>
+
     <!--Contact-->
     <section>
         <h1 class="contact-title">Contact</h1>

@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>*dope website title*</title>
+    <title>Home | Eduardo Takeo</title>
     <link rel="stylesheet" href="css/css.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--Navbar menu-->
+    <!-- Navbar menu -->
     <nav class="navbar">
         <ul class="navbar-list">
-            <li id="navbar-logo" class="navbar-item">DWT</li>
-            <li class="navbar-item">Home</li>
-            <li class="navbar-item">Content</li>
-            <li class="navbar-item">About</li>        
-            <li class="navbar-item">Contact</li>
-        </ul>
+            <a href="#"><li id="navbar-logo" class="navbar-item">DWT</li></a>
+            <a href="#"><li class="navbar-item">Home</li></a>
+            <a href="#"><li class="navbar-item">Content</li></a>
+            <a href="#"><li class="navbar-item">About</li></a>
+            <a href="#"><li class="navbar-item">Contact</li></a>
+            <button class="navbar-item" id="github-btn" onclick="window.location.href = 'https://github.com/'"><i class="fab fa-github"></i>GitHub</button>            
+        </ul>        
     </nav>
     <!--Cover(Animated background)-->
     <section class="cover">
-        <span class="cover-text">Dope website title</span>
+        <span class="cover-text">dope website title</span>
     </section>
     <!--Quote-->
     <section class="quote">
@@ -113,5 +115,9 @@
             </form>
         </div>
     </section>
+
+    <!-- Javascript -->
+    <script src="js/js.js"></script>
+    <script src="https://kit.fontawesome.com/cb6c8aa9a9.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 hr {
@@ -14,26 +14,63 @@ hr {
     margin: 0 auto;
 }
 
-.navbar {
+.navbar {    
     position: fixed;
     background: rgba(28, 35, 49, 0.2);
     width: 100%;
 }
 
-.navbar-list {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.navbar-item {
-    display: inline-block;
-    color: #fff;
-    padding: 20px 10px;
-}
-
 #navbar-logo {
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 60%;
+    padding: 12px 0px;
+    margin: 0 auto;
+}
+
+.navbar-list > a {
+    text-decoration: none;
+}
+
+.navbar-item {    
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.navbar-item:hover {    
+    color: rgba(201, 202,204, 1);
+}
+
+#github-btn {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px 20px 10px 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;    
+    background-color: rgba(28, 35, 49, 0.2);
+    color: #fff;
+    font-size: 14px;
+}
+
+#github-btn:hover {
+    color: rgba(201, 202,204, 1);
+}
+
+.fa-github {
+    width: 35px;
+}
+
+.fa-bars {
+    display: none;
+    color: #fff;
+    align-self: center;
 }
 
 .cover {
@@ -42,7 +79,10 @@ hr {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, blue, red);
+    background: url(../img/landing_page.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .cover-text {
@@ -53,7 +93,7 @@ hr {
     letter-spacing: 3px;
     text-transform: uppercase;
     border: 5px solid #fff;
-    padding: 70px;
+    padding: 50px;
 }
 
 .quote {

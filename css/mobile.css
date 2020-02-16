@@ -13,32 +13,17 @@
         width: 90%;
     }
 
-    .quote-container {
-        width: 75vw;
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .about-container {
-        width: 100%;
-        flex-direction: column;        
+    .tools-container {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .about-container-column {
-        width: 100%;
-        text-align: center;
+    .technical-container {
+        width: 80%;
     }
 
-    .about-container-column > img {
-        width: 60vw;
+    .non-technical-container {
+        width: 8    0%;
     }
-
-    .contact-input-container {
-        width: 100%;
-        padding: 20px 0px;
-    }
-
-    .contact-textarea {
-        width: 100%;
-    }
+    
 }

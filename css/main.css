@@ -122,9 +122,9 @@ a {
     letter-spacing: 3px;
 }
 
-.cover-text > span{
+.cover-text > span {
     color: #fff;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 section {
@@ -157,18 +157,50 @@ section {
     text-align: center;
 }
 
-.content-container {
+.work-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: lightblue;
 }
 
-.content-container > img {
+.work-container > img {
     width: 250px;
     height: auto;
-    margin: 5px;
+    margin: 10px 20px;
+}
+
+/* Need revision (tools container) */
+.tools-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tools-container-img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.technical-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.non-technical-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.non-technical-title-container {
+    width: 40%;    
 }
 
 .contact-form {

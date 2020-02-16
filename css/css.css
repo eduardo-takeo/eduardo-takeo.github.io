@@ -141,6 +141,7 @@ section {
 .about-container {
     display: flex;
     justify-items: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -158,13 +159,14 @@ section {
 
 .content-container {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: lightblue;
 }
 
 .content-container > img {
-    width: 280px;
+    width: 250px;
     height: auto;
     margin: 5px;
 }

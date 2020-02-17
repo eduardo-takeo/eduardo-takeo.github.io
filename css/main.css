@@ -73,10 +73,6 @@ a {
     color: rgba(201, 202,204, 1);
 }
 
-.fa-github {
-    width: 35px;
-}
-
 .fa-bars {
     display: none;
     color: #fff;
@@ -176,14 +172,14 @@ section {
 }
 
 .tools-container-img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 20px;
 }
 
 .tools-container-img:hover {
-    background-color: rgba(28, 35, 49, 0.2);
-    opacity: 0.4;
+    background-color: rgb(28, 35, 49);
+    opacity: 0.7;
 }
 
 .technical-container {
@@ -236,7 +232,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
 }
 
 .form-input-container {
@@ -260,4 +255,44 @@ section {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid rgba(28, 35, 49, 0.3);
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(28, 35, 49);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btns-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-btn {
+    background-color: rgb(28, 35, 49);
+    width: 40px;
+    height: 40px;
+    margin: 45px 3px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.footer-btn:hover {
+    background-color: #fff;    
+    color: rgb(28, 35, 49);
+}
+
+#copyright-text {
+    font-size: 12px;
+    letter-spacing: 1px;
 }

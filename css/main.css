@@ -27,13 +27,11 @@ a {
 }
 
 #navbar-logo {
-    font-weight: bolder;
-    text-transform: uppercase;
     list-style-type: none;
-    color: #fff;
     position: absolute;
-    top: 20px;
     left: 14vw;
+    width: 40px;
+    height: auto;
 }
 
 .navbar-list {
@@ -179,7 +177,7 @@ section {
 
 .tools-container-img:hover {
     background-color: rgb(28, 35, 49);
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 .technical-container {

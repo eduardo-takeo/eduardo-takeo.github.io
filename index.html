@@ -19,16 +19,19 @@
         <span class="navbar-toggle" id="js-navbar-toggle">
             <i class="fas fa-bars"></i>
         </span>
-        <a href="#"><li><img id="navbar-logo" src="./img/logo.png" alt="logo"></li></a>
-        <div class="navbar-list">            
-            <ul id="js-menu">
-                <a href="#" class="navbar-item"><li>About</li></a>
-                <a href="#" class="navbar-item"><li>Work</li></a>
-                <a href="#" class="navbar-item"><li>Tools</li></a>
-                <a href="#" class="navbar-item"><li>Contact</li></a>
-                <button class="navbar-item" id="github-btn" onclick="window.location.href = 'https://github.com/eduardo-takeo'"><i class="fab fa-github"></i>GitHub</button>            
-            </ul>
-        </div>                
+
+        <div id="js-menu" class="navbar-container">
+            <a href="#"><img id="navbar-logo" src="./img/logo.png" alt="logo"></a>
+            <div class="navbar-item-container">
+                <ul>
+                    <li class="navbar-item"><a href="#">About</a></li>
+                    <li class="navbar-item"><a href="#">Work</a></li>
+                    <li class="navbar-item"><a href="#">Tools</a></li>
+                    <li class="navbar-item"><a href="#">Contact</a></li>
+                </ul>    
+            </div>
+            <button id="github-btn" onclick="window.location.href = 'https://github.com/eduardo-takeo'"><i class="fab fa-github"></i>GitHub</button>
+        </div>            
     </nav>
 
     <!--Cover(Animated background)-->

@@ -19,56 +19,59 @@ a {
 }
 
 .navbar {
-    display: flex;    
     position: fixed;
     background: rgba(28, 35, 49, 0.2);
     width: 100%;
-    height: 50px;
 }
 
-#navbar-logo {
-    list-style-type: none;
-    position: absolute;
-    left: 14vw;
-    width: 40px;
-    height: auto;
-}
-
-.navbar-list {
+.navbar-container {
+    display: flex;
+    align-content: center;
     width: 60%;
     margin: auto;
 }
 
-.navbar-list > ul {
-    display: flex;    
-    flex-direction: row;
-    align-items: center;
-    list-style-type: none;
+#navbar-logo {
+    width: 40px;
+    padding: 5px 50px 0px 0px;
+}
+
+.navbar-item-container {
+    display: flex;
+    align-self: center;
 }
 
 .navbar-item {
-    color: #fff;
-    padding: 10px;
+    display: inline-block;
+    padding: 0px 15px;
 }
 
-.navbar-item:hover {
-    color: rgba(201, 202,204, 1);
+.navbar-item > a {
+    color: #fff;
+}
+
+.navbar-item > a:hover {
+    color: #bdbdbd;
 }
 
 #github-btn {
-    display: flex;
-    align-items: center;
+    width: 100px;
+    height: 40px;
+    align-self: center;
     margin-left: auto;
-    padding: 10px 20px 10px 10px;
     border: 2px solid #fff;
     border-radius: 5px;    
     background-color: rgba(28, 35, 49, 0.2);
     color: #fff;
-    font-size: 14px;
+}
+
+#github-btn > i {
+    padding-right: 10px;
 }
 
 #github-btn:hover {
-    color: rgba(201, 202,204, 1);
+    color: rgb(28, 35, 49);
+    background-color: #fff;
 }
 
 .fa-bars {

@@ -11,17 +11,28 @@ hr {
     color: 1px solid #000;
     opacity: 0.5;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .navbar {
     position: fixed;
     background: rgba(28, 35, 49, 0.2);
     width: 100%;
+    transition: padding 0.5s, background 0.5s;
+}
+
+.navbar-solid {
+    position: fixed;
+    background: rgb(28, 35, 49);
+    width: 100%;
+    transition: padding 0.5s, background 0.5s;
+    padding: 5px 0px;
+    z-index: 1;
 }
 
 .navbar-container {
@@ -44,10 +55,6 @@ a {
 .navbar-item {
     display: inline-block;
     padding: 0px 15px;
-}
-
-.navbar-item > a {
-    color: #fff;
 }
 
 .navbar-item > a:hover {
@@ -92,7 +99,6 @@ a {
 
 .navbar-toggle-active {
     display: inline-block;
-    background-color: salmon;
 }
 
 .cover {

@@ -24,10 +24,10 @@
             <a href="#"><img id="navbar-logo" src="./img/logo.png" alt="logo"></a>
             <div class="navbar-item-container">
                 <ul>
-                    <li class="navbar-item"><a href="#">About</a></li>
-                    <li class="navbar-item"><a href="#">Work</a></li>
-                    <li class="navbar-item"><a href="#">Tools</a></li>
-                    <li class="navbar-item"><a href="#">Contact</a></li>
+                    <li class="navbar-item"><a href="#about">About</a></li>
+                    <li class="navbar-item"><a href="#work">Work</a></li>
+                    <li class="navbar-item"><a href="#tools">Tools</a></li>
+                    <li class="navbar-item"><a href="#contact">Contact</a></li>
                 </ul>    
             </div>
             <button id="github-btn" onclick="window.location.href = 'https://github.com/eduardo-takeo'"><i class="fab fa-github"></i>GitHub</button>
@@ -35,7 +35,7 @@
     </nav>
 
     <!--Cover(Animated background)-->
-    <main class="cover">
+    <main id="cover" class="cover">
         <div class="cover-text">
             <h1>Hello, I'm Eduardo</h1>
             <span>Front-end developer</span>
@@ -43,7 +43,7 @@
     </main>
 
     <!--About-->
-    <section>
+    <section id="about">
         <h1 class="section-title">About</h1>
         <div class="about-container">
             <img id="about-img" src="./img/about_img.jpg" alt="about_img">
@@ -56,7 +56,7 @@
     <hr>
 
     <!--Work-->
-    <section>
+    <section id="work">
         <h1 class="section-title">Work</h1>
         <div class="work-container">
             <img src="./img/work_card_01.jpg" alt="work_card_01">
@@ -73,7 +73,7 @@
     <hr>
 
     <!--Tools-->
-    <section>
+    <section id="tools">
         <h1 class="section-title">Tools</h1>
         <div class="tools-container">
             <div class="technical-container">
@@ -110,7 +110,7 @@
     <hr>
 
     <!--Contact-->
-    <section>
+    <section id="contact">
         <h1 class="section-title">Contact</h1>
         <div class="contact-container">
             <div class="contact-description-container">
@@ -134,7 +134,7 @@
 
     <footer>
         <div class="footer-container">
-            <i class="fas fa-chevron-up"></i>
+            <a href="#cover"><i class="fas fa-chevron-up"></i></a>
             <div class="footer-btns-container">
                 <button class="footer-btn"><i class="fab fa-linkedin-in"></i></button>
                 <button class="footer-btn"><i class="fab fa-github"></i></button>
@@ -146,7 +146,12 @@
     </footer>
 
     <!-- Javascript -->
-    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/cb6c8aa9a9.js" crossorigin="anonymous"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,12 +1,15 @@
 @media only screen and (max-width: 980px) {
     #js-menu {
         display: none;
-        flex-direction: column;
-        justify-content: center;        
+        flex-direction: column;        
     }
 
     #js-navbar-toggle {
-        display: block;        
+        display: block;
+    }
+
+    .navbar-item {
+        flex-direction: column;
     }
 
     section {

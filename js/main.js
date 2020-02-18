@@ -10,10 +10,17 @@ toggleButton.addEventListener('click', function() {
         navMenu.style.display = "none"     
 });
 
-//:TODO
-// toggleButton.addEventListener('click', function() {
-//     if(navMenu.className.match("navbar-toggle"))
-//         navMenu.className = "navbar-toggle-active"
-//     else
-//         navMenu.className = "navbar-toggle"
-// });
+//Change top menu opacity on scroll
+$(function() {
+    let navbar = $('.navbar');
+    $(window).scroll(function() {
+        let scroll = $(window).scrollTop();
+
+        if(scroll >= 1) {
+            navbar.removeClass('navbar').addClass('navbar-solid')
+        }
+        else {
+            navbar.removeClass('navbar-solid').addClass('navbar')
+        }
+    });
+});

@@ -24,3 +24,11 @@ $(function() {
         }
     });
 });
+
+//Redirect to github
+function toGithub() {
+    window.open(
+        'https://github.com/eduardo-takeo',
+        '_blank'
+    )
+};

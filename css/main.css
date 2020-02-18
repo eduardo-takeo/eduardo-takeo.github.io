@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;    
 }
@@ -21,9 +25,10 @@ a {
 
 .navbar {
     position: fixed;
-    background: rgba(28, 35, 49, 0.2);
+    background: rgba(28, 35, 49, 0.1);
     width: 100%;
     transition: padding 0.5s, background 0.5s;
+    padding: 10px 0px;
 }
 
 .navbar-solid {
@@ -31,7 +36,6 @@ a {
     background: rgb(28, 35, 49);
     width: 100%;
     transition: padding 0.5s, background 0.5s;
-    padding: 5px 0px;
     z-index: 1;
 }
 

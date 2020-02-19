@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
 }
 
 hr {
@@ -245,6 +245,11 @@ section {
     align-items: center;
 }
 
+.contact-btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .form-input-container {
     display: flex;
     justify-content: space-evenly;
@@ -252,20 +257,32 @@ section {
 }
 
 .form-input-container > input {
-    flex: 1;
     width: 20vw;
-    margin: 10px;
     padding: 10px;
+    margin: 10px 0px;
     border-radius: 5px;
     border: 1px solid rgba(28, 35, 49, 0.3);
+    font-family: 'Poppins', sans-serif;
 }
 
 #message-textarea {
-    width: 85%;
-    margin: 10px;
+    width: 42.5vw;
+    height: 20vh;
+    margin: 10px 0px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid rgba(28, 35, 49, 0.3);
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(28, 35, 49, 0.3);
+    background-color: #fbff00bf;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 footer {
@@ -293,7 +310,7 @@ footer {
     background-color: rgb(28, 35, 49);
     width: 40px;
     height: 40px;
-    margin: 45px 3px;
+    margin: 35px 3px;
     color: #fff;
     border: 1px solid #fff;
 }

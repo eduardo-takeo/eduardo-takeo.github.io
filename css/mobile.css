@@ -29,4 +29,16 @@
         width: 80%;
     }
     
+    .form-input-container > input {
+        width: 100%;
+    }
+    
+    #message-textarea {
+        width: 95%;
+    }
+
+    .contact-btn-container {
+        justify-content: center;
+    }
+
 }

@@ -278,7 +278,7 @@ section {
     width: 150px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid rgba(28, 35, 49, 0.3);
+    border: none;
     background-color: #efe80e;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -298,6 +298,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.fa-chevron-up:hover {
+    position: relative;
+    top: -5px;
 }
 
 .footer-btns-container {

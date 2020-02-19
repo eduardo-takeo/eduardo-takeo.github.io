@@ -119,18 +119,17 @@ a {
 
 .cover-text {
     margin: 10%;
-    
 }
 
-.cover-text > h1{
+.cover-text > h1 {
     color: #fff;
-    font-size: 3vw;
+    font-size: 3em;
     letter-spacing: 3px;
 }
 
 .cover-text > span {
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 section {
@@ -280,7 +279,7 @@ section {
     height: 40px;
     border-radius: 5px;
     border: 1px solid rgba(28, 35, 49, 0.3);
-    background-color: #fbff00bf;
+    background-color: #efe80e;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }

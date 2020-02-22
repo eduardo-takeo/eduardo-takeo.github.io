@@ -21,6 +21,11 @@
         align-items: center;
     }
 
+    .tools-img {
+        width: 40px;
+        padding: 10px;
+    }
+
     .technical-container {
         width: 80%;
     }
@@ -28,14 +33,14 @@
     .non-technical-container {
         width: 80%;
     }
+
+    .contact-input-container {
+        flex-direction: column;
+    }
     
-    .form-input-container > input {
+    .contact-input-container > input {
         width: 100%;
-    }
-    
-    #message-textarea {
-        width: 95%;
-    }
+    }   
 
     .contact-btn-container {
         justify-content: center;

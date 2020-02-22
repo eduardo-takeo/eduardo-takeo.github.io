@@ -25,14 +25,6 @@ $(function() {
     });
 });
 
-//Redirect to github
-function toGithub() {
-    window.open(
-        'https://github.com/eduardo-takeo',
-        '_blank'
-    )
-};
-
 //Cover text animation
 let TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;

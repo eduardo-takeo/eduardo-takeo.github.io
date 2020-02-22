@@ -299,9 +299,13 @@ footer {
     align-items: center;
 }
 
-.fa-chevron-up:hover {
+.fa-chevron-up {
     position: relative;
-    top: -5px;
+    padding: 10px;
+}
+
+.fa-chevron-up:hover {
+    animation: goToTop .3s forwards
 }
 
 .footer-btns-container {
@@ -327,3 +331,14 @@ footer {
     font-size: 12px;
     letter-spacing: 1px;
 }
+
+@keyframes goToTop {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -10px;
+    }
+}
+

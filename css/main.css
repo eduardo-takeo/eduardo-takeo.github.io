@@ -60,7 +60,6 @@ hr {
 .navbar-item-container {
     display: flex;
     justify-content: center;
-    
 }
 
 .navbar-item {
@@ -93,13 +92,15 @@ hr {
 }
 
 .navbar-container-toggle {
-    width: 90%;
-    margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    
+    flex-direction: column;
+}
+
+.navbar-container-toggle-header {
+    display: none;
+}
+
+#js-collapsed-menu {
     display: none;
 }
 

@@ -1,17 +1,21 @@
-let navMenu = document.getElementById("js-menu");
+let collapsedMenu = document.getElementById("js-collapsed-menu");
 let solidMenu = document.getElementById("js-solid-menu")
 
 // Collapse top menu
-$(function () {
+$(function() {
   $("#collapse-btn").click(() => {
-    (navMenu.style.display === 'none' || navMenu.style.display === '') ? navMenu.style.display = 'flex' : navMenu.style.display = 'none';
+    (collapsedMenu.style.display === 'none' || collapsedMenu.style.display === '') ? collapsedMenu.style.display = 'flex' : collapsedMenu.style.display = 'none';
   })
+})
+
+$(function() {
+  $(window).resize(() => collapsedMenu.style.display = 'none');
 })
 
 //Change top menu opacity on scroll
 $(function() {
     let navbar = $('.navbar');
-    $(window).scroll(function() {
+    $(window).scroll(() => {
         let scroll = $(window).scrollTop();
 
         if(scroll >= 1) {

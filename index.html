@@ -17,12 +17,24 @@
     <!-- Navbar menu -->
     <nav class="navbar" id="js-solid-menu">
         <!-- Collapsed menu -->
-        <div id="js-collapsed-menu" class="navbar-container-toggle">
-            <a href="#cover"><img class="navbar-logo" src="./img/logo.png" alt="logo"></a>
-            <i id="collapse-btn" class="fas fa-bars"></i>
+        <div class="navbar-container-toggle">
+            <div class="navbar-container-toggle-header">
+                <a href="#cover"><img class="navbar-logo" src="./img/logo.png" alt="logo"></a>
+                <i id="collapse-btn" class="fas fa-bars"></i>
+            </div>
+            <div id="js-collapsed-menu">
+                <ul>
+                    <li class="navbar-item"><a href="#about">About</a></li>
+                    <li class="navbar-item"><a href="#work">Work</a></li>
+                    <li class="navbar-item"><a href="#tools">Tools</a></li>
+                    <li class="navbar-item"><a href="#contact">Contact</a></li>                    
+                </ul>
+                <a href="https://github.com/eduardo-takeo" target="_blank" id="github-btn"><i class="fab fa-github"></i>GitHub</a>
+            </div>
         </div>
 
-        <div id="js-menu" class="navbar-container">
+        <!-- Normal menu -->
+        <div class="navbar-container">
             <a href="#cover"><img class="navbar-logo" src="./img/logo.png" alt="logo"></a>
             <div class="navbar-item-container">
                 <ul>
@@ -43,7 +55,7 @@
             <span
                 class="txt-rotate"
                 data-period="2000"
-                data-rotate='[ "Front developer", "Software engineer", "UX Enthusiast" ]'>
+                data-rotate='[ "Software engineer", "Front developer", "UX Enthusiast" ]'>
             </span>
         </div>        
     </main>

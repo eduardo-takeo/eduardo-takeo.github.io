@@ -1,16 +1,6 @@
 @media only screen and (max-width: 980px) {
-    #js-menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        display: none;
-    }
-
     .navbar-container {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 20px;
+        display: none;
     }
 
     .navbar-item {
@@ -18,13 +8,23 @@
         margin: 15px 0px;
     }
 
-    .navbar-container-toggle {
+    .navbar-container-toggle-header {
+        width: 90%;
+        margin: auto;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
     }
 
-    .navbar-item-container {
-        display: block;
+    #js-collapsed-menu {
+        width: 100%;
+        text-align: center;
+        display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
+
+        display: none;
     }
 
     #github-btn {

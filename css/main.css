@@ -47,19 +47,20 @@ hr {
 
 .navbar-container {
     display: flex;
-    align-content: center;
+    align-items: center;
     width: 60%;
     margin: auto;
 }
 
-#navbar-logo {
-    width: 40px;
-    padding: 5px 50px 0px 0px;
+.navbar-logo {
+    width: 30px;
+    padding: 8px 50px 2.5px 0px;
 }
 
 .navbar-item-container {
     display: flex;
-    align-self: center;
+    justify-content: center;
+    
 }
 
 .navbar-item {
@@ -91,24 +92,15 @@ hr {
     background-color: #fff;
 }
 
-.fa-bars {
-    display: none;
+.navbar-container-toggle {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #fff;
-    align-self: center;
-}
-
-.navbar-toggle {
+    
     display: none;
-    position: absolute;
-    top: 20px;
-    right: 7vw;
-    cursor: pointer; 
-    color: #fff;
-    font-size: 20px;
-}
-
-.navbar-toggle-active {
-    display: inline-block;
 }
 
 .cover {
@@ -343,4 +335,3 @@ footer {
         top: -8px;
     }
 }
-

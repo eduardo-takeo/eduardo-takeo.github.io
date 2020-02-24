@@ -11,27 +11,29 @@
     <link rel="stylesheet" href="css/mobile.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar menu -->
     <nav class="navbar" id="js-solid-menu">
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
-        </span>
+        <!-- Collapsed menu -->
+        <div id="js-collapsed-menu" class="navbar-container-toggle">
+            <a href="#cover"><img class="navbar-logo" src="./img/logo.png" alt="logo"></a>
+            <i id="collapse-btn" class="fas fa-bars"></i>
+        </div>
 
         <div id="js-menu" class="navbar-container">
-            <a href="#cover"><img id="navbar-logo" src="./img/logo.png" alt="logo"></a>
+            <a href="#cover"><img class="navbar-logo" src="./img/logo.png" alt="logo"></a>
             <div class="navbar-item-container">
                 <ul>
                     <li class="navbar-item"><a href="#about">About</a></li>
                     <li class="navbar-item"><a href="#work">Work</a></li>
                     <li class="navbar-item"><a href="#tools">Tools</a></li>
                     <li class="navbar-item"><a href="#contact">Contact</a></li>
-                </ul>    
+                </ul>
             </div>
             <a href="https://github.com/eduardo-takeo" target="_blank" id="github-btn"><i class="fab fa-github"></i>GitHub</a>
-        </div>            
+        </div>
     </nav>
 
     <!--Cover(Animated background)-->
@@ -132,7 +134,7 @@
                     <input id="contact-btn" type="submit" value="Send">
                 </div>                    
             </form>
-        </div>
+        </div>       
     </section>
 
     <footer>

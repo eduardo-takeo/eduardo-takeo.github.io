@@ -1,14 +1,12 @@
-// Collapse top menu
 let navMenu = document.getElementById("js-menu");
-let toggleButton = document.getElementById("js-navbar-toggle");
 let solidMenu = document.getElementById("js-solid-menu")
 
-toggleButton.addEventListener('click', function() {
-    if(navMenu.style.display === "none")
-        navMenu.style.display = "inline-block"
-    else
-        navMenu.style.display = "none"     
-});
+// Collapse top menu
+$(function () {
+  $("#collapse-btn").click(() => {
+    (navMenu.style.display === 'none' || navMenu.style.display === '') ? navMenu.style.display = 'flex' : navMenu.style.display = 'none';
+  })
+})
 
 //Change top menu opacity on scroll
 $(function() {

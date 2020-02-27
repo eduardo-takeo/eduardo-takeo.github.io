@@ -156,15 +156,20 @@ hr {
 
 .work-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .work-img {
-    width: 300px;
+    width: 400px;
     height: auto;
     margin: 10px 20px;
+    transition: all .2s;
+}
+
+.work-img:hover {
+    opacity: .3;
+    transform: translateY(-5px);
 }
 
 .tools-container {
@@ -228,6 +233,14 @@ hr {
     margin-bottom: 40px;
 }
 
+#contact-img {
+    transition: all .5s;
+}
+
+#contact-img:hover {
+    transform: rotate(20deg) translateY(-15px);
+}
+
 .contact-form-container {
     display: flex;
     justify-content: center;
@@ -276,6 +289,11 @@ hr {
     background-color: #efe80e;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    transition: all .3s;
+}
+
+#contact-btn:hover {
+    background-color: #d6cf0a;
 }
 
 footer {
@@ -297,10 +315,11 @@ footer {
 .fa-chevron-up {
     position: relative;
     padding: 10px;
+    transition: all .3s;
 }
 
 .fa-chevron-up:hover {
-    animation: goToTop .3s forwards
+    transform: translateY(-8px);
 }
 
 .footer-btns-container {
@@ -315,6 +334,7 @@ footer {
     margin: 35px 3px;
     color: #fff;
     border: 1px solid #fff;
+    transition: all .2s;
 }
 
 .footer-btn:hover {
@@ -325,14 +345,4 @@ footer {
 #copyright-text {
     font-size: 12px;
     letter-spacing: 1px;
-}
-
-@keyframes goToTop {
-    0% {
-        top: 0;
-    }
-
-    100% {
-        top: -8px;
-    }
 }
